@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSIB5_Tugas 2_6453950</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--
+      CHRISTOPHORUS ADYATMA WAHYU SETYA NAYOTTAMA
+      UNIVERSITAS KRISTEN DUTA WACANA
+      6453950
+      Rizky Bagus Pangestu
+    -->
+  </head>
+  <body>
+    <div class="contaier">
+      <br>
+      <br>
+    <header>
+      <h1>Nilai Mata Kuliah</h1>
+    </header>
+    <main>
+      <form action="" method="post">
+        <table border="0">
+          <tr>
+            <td><label for="nama">Nama</label></td>
+            <td>:</td>
+            <td class="x1"><input type="text" name="nama" id="nama" placeholder="Ketik nama anda "  /></td>
+          </tr>
+          <tr>
+            <td><label for="matkul">Mata Kuliah</label></td>
+            <td>:</td>
+            <td class="x2"><input type="text" name="matkul" id="matkul" placeholder="Ketik nama mata kuliah "  /></td>
+          </tr>
+          <tr>
+            <td><label for="grade">Grade</label></td>
+            <td>:</td>
+                <td class="x3"><select name="grade" id="grade" >
+                    <option value="" disabled selected>Pilih Grade</option>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                  </select></td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center">
+                <br>
+                <button type="button" id="button" onclick="hitungNilai()" class="bthover">Hitung</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <br>
+      <table id="hasilHitung"  >
+        <tr>
+          <th>Nama</th>
+          <th>Mata Kuliah</th>
+          <th>Grade</th>
+          <th>Nilai Rata-Rata</th>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <!-- instagram.com/chr.adyatma -->
+    </footer>
+  </body>
+</html>

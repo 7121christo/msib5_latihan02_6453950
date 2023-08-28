@@ -1,0 +1,96 @@
+/*
+      CHRISTOPHORUS ADYATMA WAHYU SETYA NAYOTTAMA
+      UNIVERSITAS KRISTEN DUTA WACANA
+      6453950
+      Rizky Bagus Pangestu
+*/
+
+/*Memberi background berupa GIF pada html*/
+html {
+  background: url(img/background.gif) no-repeat center fixed;
+  background-size: cover;
+}
+
+/*Styling bagian body*/
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styling bagian heaader*/
+header {
+  background-color: lightskyblue;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+/*Styling bagian main*/
+main {
+  background-color: lightskyblue;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+/*Styling tag h1*/
+h1 {
+  text-align: center;
+}
+
+/*Styling bagian div class container*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Styling table bagian hasil hitung*/
+#hasilHitung {
+  width: 100%;
+  border-style: outset;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid #434343;
+  margin-top: 20px;
+}
+/*Styling table bagian hasil hitung*/
+#hasilHitung th,
+#hasilHitung td {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/*Styling button submit*/
+#button {
+  border-radius: 5px;
+  background-color: rgb(11, 93, 165);
+  color: rgb(255, 255, 255);
+  padding: 4px 8px;
+}
+/*Styling button submit mouse-on-hover*/
+.bthover:hover {
+  box-shadow: 0 5px 10px 0 rgba(166, 217, 255, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nama {
+  width: 270px;
+}
+
+#matkul {
+  width: 270px;
+}
+
+#grade {
+  width: 276px;
+}
